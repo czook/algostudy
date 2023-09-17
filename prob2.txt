@@ -1,1 +1,21 @@
-problem 2
+# problem 2
+
+We're given a string and need to see if it can be broken down into words from a dictionary array. For example:
+JAVASCRIPT
+
+const str = "applecomputer";
+
+const dictArr = ["apple", "computer"];
+
+stringBreakdown(str, dictArr);
+
+// true
+
+Assuming that there are no repeats in the dictionary array, can you write a method that will return true if the string can be broken down into words from the array, or false if not?
+Description
+Constraints
+
+    Length of the string <= 1000
+    The string is made up of ASCII characters (all or some of it)
+    Expected time complexity : O(n^2)
+    Expected space complexity : O(n)
