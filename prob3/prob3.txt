@@ -1,0 +1,27 @@
+Problem: Given an array of integers nums and an integer target, your task is to find the indices of two numbers in the array such that they add up to the target.
+
+Write a function called two_sum(nums, target) that takes in the following parameters:
+
+    nums: A list of integers.
+    target: An integer representing the target sum.
+
+The function should return a list of two integers, which are the indices (0-based) of the two numbers in the input array nums such that they add up to the target value.
+
+You may assume the following:
+
+    Each input will have exactly one solution.
+    You cannot use the same element twice.
+
+Examples:
+
+    Given nums = [2, 7, 11, 15] and target = 9, the function should return [0, 1] because nums[0] + nums[1] equals 9.
+
+    Given nums = [3, 2, 4] and target = 6, the function should return [1, 2] because nums[1] + nums[2] equals 6.
+
+    Given nums = [3, 3] and target = 6, the function should return [0, 1] because nums[0] + nums[1] equals 6.
+
+Constraints:
+
+    The length of the nums list is at least 2.
+    Each element in the nums list is unique (no duplicates).
+    The solution is guaranteed to exist, and there is exactly one solution.
